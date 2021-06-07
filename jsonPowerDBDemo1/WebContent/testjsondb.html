@@ -70,7 +70,7 @@ and open the template in the editor.
 			};
 			return JSON.stringify(jsonStrObj);
 		}
-		
+
 		function resetForm() {
 			$("#empId").val("")
 			$("#empName").val("");
@@ -83,7 +83,7 @@ and open the template in the editor.
 				return;
 			}
 			var putReqStr = createPUTRequest(
-					"90935567|-31948841523640556|90933587", jsonStr, "SAMPLE",
+					"TOKEN", jsonStr, "SAMPLE",
 					"EMP-REL");
 			alert(putReqStr);
 			jQuery.ajaxSetup({
